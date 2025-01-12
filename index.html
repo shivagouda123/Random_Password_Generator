@@ -27,6 +27,7 @@
 
     const allChars = upperCase + lowerCase + number + symbol;
 
+    //function to create password
     function createPassword() {
         let password = "";
         password += upperCase[Math.floor(Math.random() * upperCase.length)];
@@ -39,7 +40,8 @@
         }
         passwordBox.value = password;
     }
-    
+
+    //function to copy password
     function copyPassword() {
         passwordBox.select();
         document.execCommand("copy");
