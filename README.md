@@ -1,4 +1,4 @@
-Project Title: Random Password Generator
+# Random Password Generator
 
 Description:
 
